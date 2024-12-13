@@ -4,7 +4,7 @@
 
 import socket
 
-address = ("10.1.1.100", 6666)
+address = ("10.152.4.235", 6666)
 # 创建UDP套接字Socket, AF_INET为IPv4, SOCK_DGRAM为Datagram就是UDP
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
